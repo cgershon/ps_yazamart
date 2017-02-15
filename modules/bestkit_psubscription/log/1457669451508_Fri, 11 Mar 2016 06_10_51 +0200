@@ -1,0 +1,44 @@
+Array
+(
+    [mc_gross] => 10.00
+    [protection_eligibility] => Eligible
+    [address_status] => unconfirmed
+    [payer_id] => M7V5XJQNMWLD6
+    [tax] => 0.00
+    [address_street] => 10 Rav Frank
+Bat A
+    [payment_date] => 20:10:40 Mar 10, 2016 PST
+    [payment_status] => Completed
+    [charset] => windows-1255
+    [address_zip] => 96386
+    [first_name] => Hanna
+    [mc_fee] => 1.54
+    [address_country_code] => IL
+    [address_name] => ygpc
+    [notify_version] => 3.8
+    [custom] => 
+    [payer_status] => unverified
+    [address_country] => Israel
+    [address_city] => Jerusalem
+    [quantity] => 1
+    [verify_sign] => A.pPkPb115HPGgleuUrehHrwIVOSASu3XdBNd5sozrbQW7dn0vNhFiBa
+    [payer_email] => hanna@ygpc.net
+    [txn_id] => 87C10353C5621164C
+    [payment_type] => instant
+    [payer_business_name] => ygpc
+    [last_name] => Gershon
+    [address_state] => 
+    [receiver_email] => contact@ygpc.net
+    [payment_fee] => 
+    [receiver_id] => JXMDLWWFBWQBJ
+    [txn_type] => express_checkout
+    [item_name] => ILHKCZUMY
+    [mc_currency] => ILS
+    [item_number] => 
+    [residence_country] => IL
+    [handling_amount] => 0.00
+    [transaction_subject] => ILHKCZUMY
+    [payment_gross] => 
+    [shipping] => 0.00
+    [ipn_track_id] => 8ce25b358e3c7
+)

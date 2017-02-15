@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="sid-plesk">
+<head>
+    <title>YazamArt </title>
+    <meta name='copyright' content='Copyright 1999-2015. Parallels IP Holdings GmbH. All Rights Reserved.'>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href=""><!--css/home.css-->
+    <style>  <!-- in place to home.css -->
+@import url(//fonts.googleapis.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext,cyrillic,cyrillic-ext,greek,greek-ext,vietnamese);
+html {
+    font: normal 13px/1.4 "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    overflow-y: scroll;
+    color: #000;
+}
+html,
+body {
+    height: 100%;
+    min-height: 100%;
+}
+body { margin: 0; }
+a { background-color: transparent; }
+a:active,
+a:hover { outline: 0; }
+a {
+    #color: #2498e3;
+    color: #1424ff;
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover {
+    color: #188dd9;
+    text-decoration: underline;
+}
+img {
+    box-sizing: border-box;
+    border: 0;
+    vertical-align: middle;
+    -ms-interpolation-mode: bicubic;
+}
+.page-container {
+    position: relative;
+    display: table;
+    width: 100%;
+    height: 100%;
+    table-layout: fixed;
+}
+.page-header-wrapper,
+.page-content-wrapper,
+.page-footer-wrapper {
+    box-sizing: border-box;
+    display: table-row;
+}
+.page-content-wrapper { height: 100%; }
+.page-header {
+    padding: 0 10px;
+    min-height: 50px;
+    border-bottom: 1px solid #1c2229;
+    background: #222a32;
+}
+.page-header:before,
+.page-header:after {
+    display: table;
+    content: "";
+}
+.page-header:after { clear: both; }
+.page-content {
+    margin: auto;
+    padding: 20px 10px;
+    max-width: 960px;
+}
+.page-footer {
+    padding: 5px 10px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.6);
+    border-top: 1px solid #38444f;
+    background: #222a32;
+    font-size: 12px;
+    line-height: 24px;
+}
+.page-footer a,
+.page-footer a:hover {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+}
+.page-footer .separator {
+    width: 1px;
+    display: inline-block;
+    height: 12px;
+    vertical-align: -2px;
+    margin: 0 5px;
+    background: rgba(255, 255, 255, 0.6);
+}
+.product-logo { float: left; }
+.product-logo img { height: 50px; }
+.company-logo {
+    float: right;
+    margin-top: 9px;
+	padding-right:215px;
+}
+.company-logo img { height: 60px; padding-right 200px;}
+.page-info-wrapper { margin-bottom: 15px; }
+.page-info {
+    box-sizing: border-box;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background: #f2f2f2;
+}
+.page-info-heading {
+    margin: 0 0 15px;
+    font-size: 50px;
+    line-height: 24px;
+    text-align-right;
+ font-family: sans-serif;
+ padding-right: 200px;
+    
+}
+.page-info p,
+.page-info ul { margin: 15px 0; }
+.page-info ul { padding-left: 20px; }
+.product-info-wrapper p {
+    margin: 0 0 15px;
+    padding: 0;
+}
+.product-info-wrapper { margin: 0 -10px; }
+.product-info-wrapper:before,
+.product-info-wrapper:after {
+    display: table;
+    content: "";
+}
+.product-info-wrapper:after { clear: both; }
+.product-info-wrapper .col {
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    padding: 0 10px;
+}
+
+.product-info-wrapper ul.links {
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border-top: 1px solid #ddd;
+    text-align: center;
+}
+.links > li {
+    display: inline-block;
+   # float: right;
+    vertical-align: top;
+    width: 50%;
+    margin-top: 15px;
+}
+.links > li > a {
+    display: inline-block;
+    margin: 0;
+    cursor: pointer;
+    text-align: center;
+    vertical-align: top;
+}
+.links > li > a:before {
+    content: "";
+    display: block;
+    width: 32px;
+    height: 32px;
+    margin: 0 auto 5px;
+    background-repeat: no-repeat;
+    background-size: 32px 32px;
+}
+
+.product-info {
+    border: 1px solid #bebebe;
+    background: #fafafa;
+     padding:0px 0px 0px 11px;
+}
+.product-info-heading {
+    margin: -1px;
+    padding: 5px 11px;
+    font-size: 16px;
+    color: #fff;
+    background: #112255;
+}
+.product-info-content { padding: 10px; }
+
+@media (max-width: 767px) {
+    .page-header-wrapper { height: auto !important; }
+}
+@media (min-width: 480px) {
+    .links > li { width: 33.33%; }
+}
+@media (min-width: 768px) {
+    .page-header-wrapper { height: 51px; }
+    .page-header {
+        box-sizing: border-box;
+        position: fixed;
+        z-index: 300;
+        top: 0;
+        right: 0;
+        left: 0;
+        width: 100%;
+        min-height: 51px;
+    }
+    .page-header,
+    .page-content,
+    .page-footer {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .page-info {
+        box-sizing: border-box;
+        min-height: 220px;
+        padding: 20px 40px 20px 313px;
+        border: 1px solid #ccc;
+   		background: #f2f2f2 url(../img/home_blog.jpg) no-repeat;
+        background-size: 1024px 440px;
+    }
+    .links > li { width: 33.33%; }
+    .product-info-wrapper .col {
+        width: 100%;
+    }
+}
+
+    </style>
+</head>
+<body>
+
+<div class="page-container">
+    <!-- start: PAGE HEADER-->
+    <div class="page-header-wrapper">
+        <div class="page-header">
+          <a class="company-logo" href="" target="_blank"><img src="img/logo_YazamArt.jpg" alt="YazamArt"></a>
+        </div>
+    </div>
+    <!-- end: PAGE HEADER-->
+
+    <!-- start: PAGE CONTENT-->
+    <div class="page-content-wrapper">
+        <div class="page-content">
+
+            <div class="page-info-wrapper">
+                 <div class="page-info">
+                    <div class="page-info-heading"  align="center">
+             <br/>   <br/> <i> <font color="#0000cc"> יזם</font>
+             <font color="#cc0000">ארט</font></i></div>
+                    
+                     <div class="" align="center">
+                        <div  align="center" style="padding-right:200px;">
+                          <strong style="font-size:24px;"> בלוג לאומנות </strong> 
+                           
+                        </div>
+                  
+                  </div>
+                </div>
+            </div>
+
+           <div class="product-info-wrapper">
+              
+                <div class="">
+                 
+                     
+                        <div class="product-info-content" align="right"> 
+                           
+                            <ul class="links" >
+                               <li >
+                               <a class="" href="index.php?fc=module&module=ph_simpleblog&controller=list&id_lang=1" target="">
+                               <span style="font-size:24px">כניסה לבלוג  <br><img src="img/blog.png" alt="YazamArt"> </span></a>
+                               </li>
+                              
+                            </ul>
+                        </div>
+                             
+                </div>
+            </div>   <!----> 
+             <!-- /.product-info-wrapper -->
+
+        </div>
+    </div>
+    <!-- end: PAGE CONTENT-->
+
+   <!-- start: PAGE FOOTER-->
+    <div class="page-footer-wrapper">
+        <div class="page-footer">
+            This page was generated by <a href="http://www.ygpc.net" target="_blank">YGPC</a>
+            <span class="separator"></span>
+            <a href="http://www.odin.com" target="_blank" class="copyright">© 2008 YGPC. All rights reserved.</a>
+        </div>
+    </div>
+    <!-- end: PAGE FOOTER-->
+</div>
+
+</body>
+</html>
